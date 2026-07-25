@@ -1,6 +1,6 @@
 On a new PC
 # 1. Create a virtual environment
-python -m venv venv
+```python -m venv venv```
 
 # 2. Activate it
 ```venv\Scripts\activate```
