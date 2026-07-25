@@ -1,0 +1,20 @@
+On a new PC
+# 1. Create a virtual environment
+python -m venv venv
+
+# 2. Activate it
+```venv\Scripts\activate```
+
+# 3. Install everything
+```pip install -r requirements.txt```
+
+# 4. Create your .env
+DATABASE_URL=postgresql+psycopg://postgres:password@localhost:5432/task_manager
+SECRET_KEY=your_secret_key_here
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+(Change the database URL and secret key to match your setup.)
+
+# 5. Run the project
+```uvicorn main:app --reload```
