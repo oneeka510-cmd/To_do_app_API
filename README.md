@@ -1,3 +1,23 @@
+```
+User
+ ↓
+Register
+ ↓
+Login
+ ↓
+JWT
+ ↓
+Authorization Header
+ ↓
+get_current_user()
+ ↓
+current_user
+ ↓
+owner_id
+ ↓
+User-specific Tasks
+```
+
 On a new PC
 # 1. Create a virtual environment
 ```python -m venv venv```
